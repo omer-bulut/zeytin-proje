@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZeytinDağı | Kalite</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">ZeytinDağı</a>
+
+    <!-- Hamburger butonu -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menü -->
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+        <li class="nav-item"><a class="nav-link" href="store.html">Mağaza</a></li>
+        <li class="nav-item"><a class="nav-link" href="quality.html">Kalite</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">İletişim</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- İçerik -->
+  <main class="container my-5">
+    <h2 class="mb-4">Kalite ve Pratik Bilgiler</h2>
+    <div class="accordion" id="qualityAccordion">
+      <!-- Soru 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            Zeytinyağı Nasıl Saklanır?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#qualityAccordion">
+          <div class="accordion-body">
+            Serin ve karanlık ortamda, cam şişede saklanmalıdır.
+          </div>
+        </div>
+      </div>
+      <!-- Soru 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Soğuk Sıkım Nedir?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#qualityAccordion">
+          <div class="accordion-body">
+            Zeytinlerin 27°C altında sıkılmasıyla besin değerleri korunur.
+          </div>
+        </div>
+      </div>
+      <!-- Soru 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            Asit Oranı Ne Demek?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#qualityAccordion">
+          <div class="accordion-body">
+            Zeytinyağında asit oranı kaliteyi belirler; düşük asit oranı daha kaliteli ürünü gösterir.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bootstrap JS bundle (gerekli!) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

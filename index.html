@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zeytinyağı E-Ticaret | Anasayfa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <style>
+ .hero {
+  background-image: url('images/kapak.jpg'); /* resim dosyasının yolu */
+  background-size: cover;                /* alanı tamamen kapla */
+  background-position: center;           /* ortala */
+  background-repeat: no-repeat;          /* tekrar etme */
+  color: white;                          /* yazılar beyaz görünsün */
+  padding: 120px 20px;                   /* iç boşluk */
+  text-align: center;                    /* yazıları ortala */
+}
+
+
+
+  </style>
+
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">ZeytinDağı</a>
+
+    <!-- Hamburger butonu -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menü -->
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+        <li class="nav-item"><a class="nav-link" href="store.html">Mağaza</a></li>
+        <li class="nav-item"><a class="nav-link" href="quality.html">Kalite</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">İletişim</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    
+    <h1>Doğal Zeytinyağı</h1>
+    <p>Sağlık ve lezzeti sofranıza getiriyoruz.</p>
+    <a href="store.html" class="btn btn-light btn-lg mt-3">Alışverişe Başla</a>
+  </header>
+
+  <!-- Özellikler -->
+  <section class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <h5>Organik Üretim</h5>
+          <p>Kimyasal katkı olmadan doğal yöntemlerle üretilir.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <h5>Soğuk Sıkım</h5>
+          <p>Besin değerini koruyan geleneksel yöntem.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 text-center">
+          <h5>Hızlı Teslimat</h5>
+          <p>Türkiye’nin her yerine güvenli kargo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Bootstrap JS bundle (gerekli!) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
